@@ -1,5 +1,6 @@
-//import { addDireccion, getDireccion, updateDireccion, deleteDireccion } from "./Direccion"
-import { addProveedor, getProveedor, updateProveedor, deleteProveedor } from "./Proveedor"
+//import { addDireccion, getDireccion, updateDireccion, deleteDireccion } from "./Direccion";
+//import { addProveedor, getProveedor, updateProveedor, deleteProveedor } from "./Proveedor";
+//import { addObra, getObra, updateObra, deleteObra } from "./Obra";
 
 //addDireccion("avemnida1", "Tegucigalpa","FM",504,"Honduras");
 //addDireccion("avemnida2", "Tegucigalpa","FM",504,"Honduras");
@@ -16,4 +17,6 @@ import { addProveedor, getProveedor, updateProveedor, deleteProveedor } from "./
 
 //const getpro= async function(){console.log(await getProveedor({_id: "5e905c2b39982c61bc56f044"}));};getpro();
 //const uppro= async function(){console.log(await updateProveedor({_id: "5e905c2b39982c61bc56f044"},{Nombre: "La Colonia Mod"}));};uppro();
-const delpro= async function(){console.log(await deleteProveedor({_id: "5e905c2b39982c61bc56f044"}));};delpro();
+//const delpro= async function(){console.log(await deleteProveedor({_id: "5e905c2b39982c61bc56f044"}));};delpro();
+
+//addObra("5e9067a8ee28d75d6840c358", "Obra1", "primer obra registrada", "10/04/2020", "Oswar", "Honduras", "Pintura", "Perfectas Condiciones")
